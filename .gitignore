@@ -1,0 +1,88 @@
+# ======================================================
+# 🌐 FRONTEND (React + Vite + Tailwind)
+# ======================================================
+
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Editor artifacts
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+frontend/.env.test.local
+frontend/.DS_Store
+
+# Vite cache
+frontend/.vite/
+
+# Tailwind cache
+frontend/.turbo/
+frontend/.next/
+frontend/.cache/
+
+# ======================================================
+# 🦦 BACKEND (Go)
+# ======================================================
+
+# Binaries
+review_orchestrator/bin/
+review_orchestrator/build/
+review_orchestrator/*.exe
+review_orchestrator/*.exe~
+review_orchestrator/*.dll
+review_orchestrator/*.so
+review_orchestrator/*.dylib
+
+# Go build cache
+review_orchestrator/.cache/
+review_orchestrator/tmp/
+review_orchestrator/*.out
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# ======================================================
+# 🧪 TESTS & ENV
+# ======================================================
+
+# Local environment files
+.env
+.env.*
+!env.example
+
+# Coverage / test output
+coverage.out
+coverage/
+test-results/
+
+# ======================================================
+# 🚀 GENERAL PROJECT ARTIFACTS
+# ======================================================
+
+# Backups
+*.bak
+*.tmp
+*.old
+
+# Lock files (optional)
+# Uncomment if you don't want to commit lock files
+# package-lock.json
+# yarn.lock
