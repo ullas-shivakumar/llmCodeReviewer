@@ -6,7 +6,7 @@ import (
 	"github.com/go-redis/redis"
 )
 
-func connectRedisCache() {
+func ConnectRedisCache() {
 	rdb := redis.NewClient(&redis.Options{
 		Addr: "localhost:6379",
 	})
